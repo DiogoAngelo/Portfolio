@@ -1,0 +1,83 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  background-image: url("../../../assets/img/profile.png");
+  background-color: #373737;
+  background-repeat: no-repeat;
+  background-position: 100% 1200%;
+  overflow: hidden;
+}
+
+.main-info {
+  height: 400px;
+  margin-left: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.main-info h1 {
+  font-size: 4rem;
+}
+
+.main-info h4 {
+  font-family: "Nothing You Could Do";
+}
+
+.text-content {
+  width: 520px;
+  font-weight: 200;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  padding: 0;
+}
+
+.social li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #fff;
+  width: 220px;
+  transition: 0.4s ease-in-out;
+}
+
+.social li:hover {
+  background-color: #fff;
+  color: #373737;
+}
+
+.social li + li {
+  border-left: none;
+}
+
+.social a {
+  color: inherit;
+}
+
+/* .img-container {
+  height: 700px;
+  overflow-y: hidden;
+  position: absolute;
+  right: -70px;
+  bottom: 0px;
+}
+
+.profile-img {
+  filter: grayscale(100%);
+  width: 620px;
+} */
