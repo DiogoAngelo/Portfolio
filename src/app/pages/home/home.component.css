@@ -3,12 +3,12 @@
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  background-image: url("../../../assets/img/profile.png");
-  filter: grayscale(100%);
+  background-image: url("../../../assets/img/profile2.png");
   background-color: #2c2f32;
   color: white;
   background-repeat: no-repeat;
-  background-position: 120% 0;
+  background-position: 80% 10%;
+  background-size: 800px;
   overflow: hidden;
   background-attachment: fixed;
   position: relative;
@@ -21,7 +21,7 @@
   left: 0;
   bottom: 0;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .main-info {
