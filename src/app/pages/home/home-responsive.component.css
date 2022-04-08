@@ -1,16 +1,11 @@
 @media (max-width: 1020px) {
-  .page-container::before {
-    background-color: rgba(0, 0, 0, 0.6);
+  .page-container {
+    background-position: 100px -50px;
+    background-size: 1200px;
   }
 
-  @media (max-width: 990px) {
-    .portifolio {
-      height: 1200px;
-    }
-
-    .thumbnails {
-      width: 450px;
-    }
+  .page-container::before {
+    background-color: rgba(0, 0, 0, 0.6);
   }
 
   .main-info {
@@ -34,7 +29,39 @@
   }
 }
 
+@media (max-width: 990px) {
+  .portifolio {
+    height: 1200px;
+  }
+
+  .thumbnails {
+    width: 450px;
+  }
+}
+
+
+@media (max-width: 890px) {
+  .page-container {
+    background-position: -450px -250px;
+    background-size: 1800px;
+  }
+}
+
+@media (max-width: 730px) {
+  .page-container {
+    background-position: -550px -190px;
+  }
+}
+@media (max-width: 630px) {
+  .page-container {
+    background-position: -650px -190px;
+  }
+}
+
 @media (max-width: 530px) {
+  .page-container {
+    background-position: -750px -180px;
+  }
   .portifolio {
     height: 940px;
   }
@@ -68,4 +95,11 @@
   .social a {
     width: 100px;
   }
+}
+
+@media(max-width: 380px) {
+  .page-container {
+    background-position: -850px -180px;
+  }
+
 }
