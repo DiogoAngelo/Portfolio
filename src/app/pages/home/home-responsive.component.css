@@ -51,7 +51,9 @@
   .page-container {
     background-position: -550px -190px;
   }
+
 }
+
 @media (max-width: 630px) {
   .page-container {
     background-position: -650px -190px;
@@ -101,5 +103,4 @@
   .page-container {
     background-position: -850px -180px;
   }
-
 }
